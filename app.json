@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/my/give/give",
+    "pages/my/my",
+    "pages/my/commonMycovnant/commonMycovnant",
+    "pages/my/parityAgreement/parityAgreement",
+    "pages/my/wait/wait",
+    "pages/my/wait_details/wait_details",
+   
+    "pages/my/mycovenant/mycovenant",
+    "pages/my/mycovnant_details/mycovnant_details",
+    "pages/my/taskList/taskList",
+    "pages/my/personal_details/personal_details",
+    "pages/common_tools/about",
+    "pages/common_tools/consideration/consideration",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/task/task",
+    "pages/common_tools/industryData/industryData",
+    "pages/indexs/indexs",
+    "pages/common_tools/parity/parity",
+    "pages/common_tools/consideration_details/consideration_details",
+    "pages/common_tools/parity_details/parity_details",
+    "pages/my/details/details",
+    "pages/my/myparity/myparity",
+    "pages/my/commonmyparity/commonmyparity",
+    "pages/my/join/join"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3da1f4",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "水Boss",
+    "backgroundColor": "#efeff4",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "color": "#929292",
+        "iconPath": "image/icon_1.png",
+        "selectedIconPath": "image/icon_1_.png"
+      },
+      {
+        "pagePath": "pages/common_tools/about",
+        "text": "常用工具",
+        "color": "#929292",
+        "iconPath": "image/icon_2.png",
+        "selectedIconPath": "image/icon_2_.png"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "text": "任务榜",
+        "color": "#929292",
+        "iconPath": "image/icon_3.png",
+        "selectedIconPath": "image/icon_3_.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "color": "#929292",
+        "iconPath": "image/icon_4.png",
+        "selectedIconPath": "image/icon_4_.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
